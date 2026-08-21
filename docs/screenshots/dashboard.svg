@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640">
+  <defs>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="640" fill="#f4f5fb"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="1000" height="56" fill="#ffffff" filter="url(#s)"/>
+  <text x="24" y="34" font-family="Segoe UI, sans-serif" font-size="17" font-weight="700" fill="#4f46e5">📅 Sistema de Reservas</text>
+  <circle cx="820" cy="28" r="14" fill="#eef2ff"/>
+  <text x="820" y="33" text-anchor="middle" font-size="14">🔔</text>
+  <circle cx="830" cy="18" r="7" fill="#dc2626"/>
+  <text x="830" y="21" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">2</text>
+  <circle cx="870" cy="28" r="13" fill="#c7c9f5"/>
+  <text x="893" y="32" font-family="Segoe UI, sans-serif" font-size="13" fill="#374151">Admin Demo</text>
+  <rect x="945" y="16" width="40" height="24" rx="6" fill="#fff" stroke="#d1d5db"/>
+  <text x="965" y="32" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#374151">Salir</text>
+
+  <!-- section title -->
+  <text x="24" y="92" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#374151">Recursos disponibles</text>
+
+  <!-- resource cards -->
+  <g transform="translate(24,104)">
+    <rect width="300" height="200" rx="12" fill="#fff" filter="url(#s)"/>
+    <rect width="300" height="110" rx="12" fill="#c7d2fe"/>
+    <rect y="60" width="300" height="50" fill="#c7d2fe"/>
+    <text x="16" y="132" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Sala de Reuniones A</text>
+    <text x="16" y="150" font-family="Segoe UI, sans-serif" font-size="11" fill="#6b7280">Sala con proyector, 10 personas</text>
+    <text x="16" y="172" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#4f46e5">$25</text>
+    <rect x="16" y="180" width="268" height="30" rx="7" fill="#4f46e5"/>
+    <text x="150" y="200" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#fff">Reservar</text>
+  </g>
+
+  <g transform="translate(340,104)">
+    <rect width="300" height="200" rx="12" fill="#fff" filter="url(#s)"/>
+    <rect width="300" height="110" rx="12" fill="#bbf7d0"/>
+    <rect y="60" width="300" height="50" fill="#bbf7d0"/>
+    <text x="16" y="132" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Cancha Deportiva</text>
+    <text x="16" y="150" font-family="Segoe UI, sans-serif" font-size="11" fill="#6b7280">Cancha techada, fútbol/básquet</text>
+    <text x="16" y="172" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#4f46e5">$40</text>
+    <rect x="16" y="180" width="268" height="30" rx="7" fill="#4f46e5"/>
+    <text x="150" y="200" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#fff">Reservar</text>
+  </g>
+
+  <g transform="translate(656,104)">
+    <rect width="300" height="200" rx="12" fill="#fff" filter="url(#s)"/>
+    <rect width="300" height="110" rx="12" fill="#fde68a"/>
+    <rect y="60" width="300" height="50" fill="#fde68a"/>
+    <text x="16" y="132" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#1f2937">Estudio Fotográfico</text>
+    <text x="16" y="150" font-family="Segoe UI, sans-serif" font-size="11" fill="#6b7280">Luces profesionales</text>
+    <text x="16" y="172" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#4f46e5">$60</text>
+    <rect x="16" y="180" width="268" height="30" rx="7" fill="#4f46e5"/>
+    <text x="150" y="200" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#fff">Reservar</text>
+  </g>
+
+  <!-- bookings table -->
+  <text x="24" y="345" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#374151">Mis reservas</text>
+  <rect x="24" y="358" width="932" height="160" rx="10" fill="#fff" filter="url(#s)"/>
+  <rect x="24" y="358" width="932" height="34" rx="10" fill="#f9fafb"/>
+  <text x="40" y="380" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#6b7280">Recurso</text>
+  <text x="320" y="380" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#6b7280">Fecha</text>
+  <text x="470" y="380" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#6b7280">Hora</text>
+  <text x="580" y="380" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#6b7280">Estado</text>
+  <text x="760" y="380" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#6b7280">Acciones</text>
+
+  <text x="40" y="415" font-family="Segoe UI, sans-serif" font-size="13" fill="#1f2937">Sala de Reuniones A</text>
+  <text x="320" y="415" font-family="Segoe UI, sans-serif" font-size="13" fill="#1f2937">2026-09-01</text>
+  <text x="470" y="415" font-family="Segoe UI, sans-serif" font-size="13" fill="#1f2937">10:00</text>
+  <text x="580" y="415" font-family="Segoe UI, sans-serif" font-size="13" fill="#b45309">⏳ Pendiente de pago</text>
+  <rect x="760" y="400" width="50" height="22" rx="6" fill="#16a34a"/>
+  <text x="785" y="415" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#fff">Pagar</text>
+  <rect x="818" y="400" width="66" height="22" rx="6" fill="#fee2e2"/>
+  <text x="851" y="415" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">Eliminar</text>
+
+  <line x1="40" y1="432" x2="940" y2="432" stroke="#f1f1f1"/>
+
+  <text x="40" y="460" font-family="Segoe UI, sans-serif" font-size="13" fill="#1f2937">Cancha Deportiva</text>
+  <text x="320" y="460" font-family="Segoe UI, sans-serif" font-size="13" fill="#1f2937">2026-09-03</text>
+  <text x="470" y="460" font-family="Segoe UI, sans-serif" font-size="13" fill="#1f2937">18:00</text>
+  <text x="580" y="460" font-family="Segoe UI, sans-serif" font-size="13" fill="#15803d">✅ Confirmada</text>
+  <rect x="818" y="445" width="66" height="22" rx="6" fill="#fee2e2"/>
+  <text x="851" y="460" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">Eliminar</text>
+</svg>
