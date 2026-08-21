@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="900" height="560" fill="#f4f5fb"/>
+  <rect x="300" y="70" width="300" height="420" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="330" y="130" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Iniciar sesión</text>
+  <text x="330" y="155" font-family="Segoe UI, sans-serif" font-size="13" fill="#6b7280">Sistema de Reservas</text>
+
+  <text x="330" y="195" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#1f2937">Email</text>
+  <rect x="330" y="203" width="240" height="34" rx="8" fill="#fff" stroke="#d1d5db"/>
+  <text x="340" y="225" font-family="Segoe UI, sans-serif" font-size="13" fill="#9ca3af">admin@demo.com</text>
+
+  <text x="330" y="262" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#1f2937">Contraseña</text>
+  <rect x="330" y="270" width="240" height="34" rx="8" fill="#fff" stroke="#d1d5db"/>
+  <text x="340" y="292" font-family="Segoe UI, sans-serif" font-size="13" fill="#9ca3af">••••••••</text>
+
+  <rect x="330" y="322" width="240" height="38" rx="8" fill="#4f46e5"/>
+  <text x="450" y="346" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#fff">Entrar</text>
+
+  <text x="450" y="382" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#4f46e5">¿No tienes cuenta? Regístrate</text>
+  <text x="450" y="410" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#9ca3af">Demo: admin@demo.com / admin123</text>
+</svg>
