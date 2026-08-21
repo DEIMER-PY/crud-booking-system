@@ -36,6 +36,9 @@ export class ImageUploader extends HTMLElement {
           margin-top: 10px;
         }
         .drop {
+          display: block;
+          box-sizing: border-box;
+          width: 100%;
           border: 2px dashed ${this.dragging ? '#4f46e5' : '#c7c9f5'};
           background: ${this.dragging ? '#eef2ff' : 'transparent'};
           border-radius: 10px;
